@@ -509,7 +509,7 @@ void markdown_parsing::parse_asteriks(args& _args)
 		iter_good &&
 		_args.markdown.at(_args.iterator) != '*' &&
 		_args.markdown.at(_args.iterator) != '\n'
-		)
+	)
 		_args.iterator++;
 
 	if (!iter_good || _args.markdown.at(_args.iterator) == '\n')
