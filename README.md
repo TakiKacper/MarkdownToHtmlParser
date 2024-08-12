@@ -36,7 +36,7 @@ std::string markdown_snippet = R"(
 std::cout << markdown_parsing::markdown_to_html(source);
 ```
 You can also provide a custom set of html tags, that should be used instead of the default one.
-In example below we create such and then override the default html tags (``<pre><code>``) for the code blocks so they are also surrounded by a fieldset frame.
+In example below we create such with overridden html tags for the code blocks so they are also surrounded by a fieldset frame.
 See the ``markdown_parsing::html_tags`` definition to see what you can override (ps: almost everything!)
 ```cpp
 markdown_parsing::html_tags tags;
