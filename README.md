@@ -1,4 +1,4 @@
-# ⭐ Markdown Parser
+# Markdown Parser
 
 Simple, efficient, single-header C++ (14) markdown to html converison algorithm. Following features are supported:
 
