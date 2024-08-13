@@ -324,6 +324,8 @@ void markdown_parsing::parse_line(args& _args)
 	if (dashes != 0)
 		_args.line_indentation = get_indentation(_args);
 
+	if (!iter_good) return;
+
 	//Check if line is blank
 	if (_args.markdown.at(_args.iterator) == '\n')
 	{
